@@ -271,6 +271,11 @@ footer {
 }
 
 @media (min-width: 768px) {
+  main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
   .card-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -308,6 +313,11 @@ footer {
 }
 
 @media (min-width: 1440px) {
+  main {
+    padding-top: 102px;
+    padding-bottom: 102px;
+  }
+
   .card-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
